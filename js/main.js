@@ -14,7 +14,6 @@ window.addEventListener('keydown', (e)=>{
 });
 
 function show(){
-	$("body").css('backgroundImage','url(../img/background.jpg)');
 	$("#startBtn").fadeOut();
 	$("#discriptionBlock").css("opacity","1");
 	$("#progress").css("opacity","1");
