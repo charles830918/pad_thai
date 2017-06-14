@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo1</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<div id="preloader">
+  	<div id="status">&nbsp;</div>
+	</div>
+	<button id="startBtn">Press Enter <br>to Play</button>
+	<ul id="ingredientList" class="list">
+		<li class="listTitle">食材清單</li>
+		<li id ="rice_noodle" class="listItem" draggable="true">米製河粉</li>
+		<li id="shrimp" class="listItem" draggable="true">蝦仁</li>
+		<li id="mushroom" class="listItem" draggable="true">金針菇</li>
+		<li id="egg" class="listItem" draggable="true">蛋</li>
+		<li id="mango" class="listItem" draggable="true">芒果</li>
+		<li id="pork" class="listItem" draggable="true">豬絞肉</li>
+		<li id="dried_tofu" class="listItem" draggable="true">豆干</li>
+		<li id="bean_sprout" class="listItem" draggable="true">豆芽</li>
+		<li id="cabbage" class="listItem" draggable="true">大白菜</li>
+		<li id="leek" class="listItem" draggable="true">韭菜</li>
+		<li id="lemon" class="listItem" draggable="true">檸檬</li>
+	</ul>
+	<ul id="spiceList" class="list">
+		<li class="listTitle" >香料清單</li>
+		<li id="garlic" class="listItem" draggable="true">蒜頭</li>
+		<li id="basil" class="listItem" draggable="true">九層塔</li>
+		<li id="red_onion" class="listItem" draggable="true">紅蔥頭</li>
+		<li id="radish" class="listItem" draggable="true">菜脯</li>
+		<li id="pepper" class="listItem" draggable="true">胡椒</li>
+		<li id="peanut" class="listItem" draggable="true">花生米</li>
+		<li id="thai_sauce" class="listItem" draggable="true">羅望子醬</li>
+		<li id="basil" class="listItem" draggable="true">羅勒</li>
+		<li id="fish_sauce" class="listItem" draggable="true">魚露</li>
+		<li id="fructose" class="listItem" draggable="true">果糖</li>
+		<li id="water" class="listItem" draggable="true">水</li>
+	</ul>
+
+	<div id="discriptionBlock">食材描述
+	</div>
+
+	<div id="progress">
+		<div id="progressBar">
+		</div>
+	</div>
+
+	<div id="wrongWindow" class="popupWindow">
+		<div class="discription">加錯食材，燒焦啦！</div>
+		<button >按 Enter 重新開始</button>
+	</div>
+
+	<canvas id="canvas" width="800" height="400"></canvas>
+
+	
+	</body>
+	<script src="js/createjs-151126.js"></script>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/main.js"></script> 
+</html>
